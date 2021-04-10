@@ -20,7 +20,9 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 <a id="steps"></a>
 ## :small_orange_diamond: Getting Started
 1- Clone this repository
-
+```
+git clone https://github.com/phsarah/cookenu.git
+```
 2- Run this command
 ```
 npm install
@@ -73,7 +75,7 @@ npm start
 - Show recipe feed
 
 <a id="libs"></a>
-## ♦ Libraries and Frameworks:
+## :spades:	Libraries and Frameworks:
 
 - mysql
 - uuid
@@ -102,12 +104,14 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 
 <a id="documentacao"></a>
-## ♦ Documentação
+## :spades:	Documentação
 
 <a id="passos"></a>
-## ♦ Primeiros Passos
-1- Clone ese repositório
-
+## :spades:	Primeiros Passos
+1- Clone este repositório
+```
+git clone https://github.com/phsarah/cookenu.git
+```
 2- Rode o comando abaixo
 ```
 npm install
@@ -141,13 +145,13 @@ npm start
 6- Proximo passo... brincadeirinha, bora pro código!. :unicorn:	
 
 <a id="pt-scripts"></a>
-## ♦ Scripts Disponíveis:
+## :spades:	Scripts Disponíveis:
 * `npm run setup` para criar as tabelas
 * `npm run start` para rodar a aplicação
 * `npm run dev` para iniciar a aplicação com hot reload
 
 <a id="funcionalidades"></a>
-## ♦ Funcionalidades:
+## :spades:	Funcionalidades:
 
 - Login
 - Cadastro com **user roles e criptografia**
@@ -160,7 +164,7 @@ npm start
 - Mostrar feed de receitas
 
 <a id="bibliotecas"></a>
-## ♦ Bibliotecas e Frameworks:
+## :spades:	Bibliotecas e Frameworks:
 
 - mysql
 - uuid
