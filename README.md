@@ -75,7 +75,7 @@ npm start
 - Show recipe feed
 
 <a id="libs"></a>
-## :small_orange_diamond:	Libraries and Frameworks:
+## 🛠	Libraries and Frameworks:
 
 - mysql
 - uuid
@@ -104,7 +104,7 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 
 <a id="documentacao"></a>
-## :spades:	Documentação
+## 📙	Documentação
 [Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) \ criado pelo Postman.
 
 <a id="passos"></a>
@@ -165,7 +165,7 @@ npm start
 - Mostrar feed de receitas
 
 <a id="bibliotecas"></a>
-## :spades:	Bibliotecas e Frameworks:
+## 🛠	Bibliotecas e Frameworks:
 
 - mysql
 - uuid
@@ -177,4 +177,4 @@ npm start
 - bcryptjs
 - jsonwebtoken
 
-*Desenvolvido com :sparkling_heart:	 por Sarah Hessel*
+*Desenvolvido com :sparkling_heart:	por Sarah Hessel*
