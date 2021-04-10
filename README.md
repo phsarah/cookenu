@@ -1,8 +1,8 @@
 # Cookenu :cook:	
 
-
+<a id="en-readme"></a>
 ### English | [Português](#pt-readme)
-Back-end project developed in Labenu's bootcamp
+Back-end project developed in Labenu's bootcamp. \
 Cookenu is a REST API for create recipes and meeting food-loving people! :woman_cook:	
 
 <a name="en-menu"></a>
@@ -19,19 +19,20 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 <a id="steps"></a>
 ## ♦ Getting Started
-1- clone this repository
+1- Clone this repository
 
-2- run this command
+2- Run this command
 ```
 npm install
 ```
-3- create .env file on the root directory of the project with this data:
+3- Create .env file on the root directory of the project with this data:
 ```
 // your database
 DB_HOST = 
 DB_USER =
 DB_PASSWORD = 
 DB_DATABASE_NAME = 
+
 //your key and time expire preferences
 JWT_KEY =
 JWT_EXPIRES_IN = 
@@ -39,16 +40,16 @@ JWT_EXPIRES_IN =
 //your cost preference
 BCRYPT_COST = 
 ```
-4- run this command
-
+4- Run this command
 ```
 npm run setup
 ```
-5- now this one
+5- Now this one (I promise it is the last)
 ```
 npm start
 ```
-6- 
+6- next step ... i'm kidding, go to coding. : unicorn:
+
 <a id="en-scripts"></a>
 ## ♦ Available Scripts:
 * `npm run setup` to create tables
@@ -69,7 +70,7 @@ npm start
 <a id="pt-readme"></a>
 ### [English](#en-readme) | Português
 Projeto back-end desenvolvido no bootcamp da Labenu. \
-Cookenu é uma API REST para criar receitas e fazer amigos! 
+Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de comida!
 
 <a name="pt-menu"></a>
 - [Documentação](#documentacao)
