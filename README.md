@@ -15,15 +15,15 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 <a id="documentation"></a>
 ## :small_orange_diamond: Documentation
-[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) created by Postman.
+[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) \ created by Postman.
 
 <a id="steps"></a>
-## :small_orange_diamond: Getting Started
+## :rocket: Getting Started
 1- Clone this repository
 ```
 git clone https://github.com/phsarah/cookenu.git
 ```
-2- Run this command
+2- Install the dependencies
 ```
 npm install
 ```
@@ -105,15 +105,15 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 <a id="documentacao"></a>
 ## :spades:	Documentação
-[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) criado pelo Postman.
+[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) \ criado pelo Postman.
 
 <a id="passos"></a>
-## :spades:	Primeiros Passos
+## :rocket:	Primeiros Passos
 1- Clone este repositório
 ```
 git clone https://github.com/phsarah/cookenu.git
 ```
-2- Rode o comando abaixo
+2- Instale as dependências
 ```
 npm install
 ```
