@@ -15,7 +15,7 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 <a id="documentation"></a>
 ## :small_orange_diamond: Documentation
-[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) - created by Postman.
+[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) created by Postman.
 
 <a id="steps"></a>
 ## :small_orange_diamond: Getting Started
@@ -53,7 +53,7 @@ npm run setup
 ```
 npm start
 ```
-6- Next step ... i'm kidding, let's go to the code!. :unicorn:
+6- Next step ... i'm kidding, let's go to the code! :unicorn:
 
 <a id="en-scripts"></a>
 ## :small_orange_diamond: Available Scripts:
@@ -105,7 +105,7 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 <a id="documentacao"></a>
 ## :spades:	Documentação
-[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) - criado pelo Postman.
+[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) criado pelo Postman.
 
 <a id="passos"></a>
 ## :spades:	Primeiros Passos
@@ -143,7 +143,7 @@ npm run setup
 ```
 npm start
 ```
-6- Proximo passo... brincadeirinha, bora pro código!. :unicorn:	
+6- Proximo passo... brincadeirinha, bora pro código! :unicorn:	
 
 <a id="pt-scripts"></a>
 ## :spades:	Scripts Disponíveis:
