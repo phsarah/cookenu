@@ -1,4 +1,4 @@
-# Cookenu :cook:	
+# Cookenu :shallow_pan_of_food:	
 
 <a id="en-readme"></a>
 ### English | [Português](#pt-readme)
@@ -28,27 +28,30 @@ npm install
 3- Create .env file on the root directory of the project with this data:
 ```
 // your database
+
 DB_HOST = 
 DB_USER =
 DB_PASSWORD = 
 DB_DATABASE_NAME = 
 
-//your key and time expire preferences
+// your key and time expire preferences
+
 JWT_KEY =
 JWT_EXPIRES_IN = 
 
-//your cost preference
+// your cost preference
+
 BCRYPT_COST = 
 ```
 4- Run this command
 ```
 npm run setup
 ```
-5- Now this one (I promise it is the last)
+5- Now this little commander (I promise it's the last one)
 ```
 npm start
 ```
-6- next step ... i'm kidding, go to coding. : unicorn:
+6- Next step ... i'm kidding, go to coding. :unicorn:
 
 <a id="en-scripts"></a>
 ## ♦ Available Scripts:
@@ -59,10 +62,28 @@ npm start
 <a id="features"></a>
 ## ♦ Features
 
+- Log in
+- Sign up **user roles and cryptography**
+- Get your own profile data through the token
+- Get data from another user's profile through the Id
+- Create recipes
+- Get recipes by id
+- Follow user
+- Unfollow user 
+- Show recipe feed
 
 <a id="libs"></a>
 ## ♦ Libraries and Frameworks:
 
+- mysql
+- uuid
+- dayjs
+- cors
+- knex
+- express
+- dotenv
+- bcryptjs
+- jsonwebtoken
 
 *Developed with 🧡 by Sarah Hessel*
 
@@ -70,7 +91,7 @@ npm start
 <a id="pt-readme"></a>
 ### [English](#en-readme) | Português
 Projeto back-end desenvolvido no bootcamp da Labenu. \
-Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de comida!
+Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de comida! :woman_cook:	
 
 <a name="pt-menu"></a>
 - [Documentação](#documentacao)
@@ -85,13 +106,13 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 <a id="passos"></a>
 ## ♦ Primeiros Passos
-1- clone ese repositório
+1- Clone ese repositório
 
-2- rode o comando abaixo
+2- Rode o comando abaixo
 ```
 npm install
 ```
-3- crie um arquivo .env na raíz do projeto com esses dados:
+3- Crie um arquivo .env na raíz do projeto com esses dados:
 ```
 //dados do seu banco
 
@@ -104,19 +125,20 @@ DB_DATABASE_NAME =
 
 JWT_KEY =
 JWT_EXPIRES_IN = 
+
 //suas preferências de cost
+
 BCRYPT_COST = 
 ```
-4- rode esse comando:
-
+4- Rode esse comando:
 ```
 npm run setup
 ```
-5- agora esse (prometo que é o ultimo)
+5- Agora esse comandinho (prometo que é o ultimo)
 ```
 npm start
 ```
-6- proximo passo... brincadeirinha, vá codar. :unicorn:	
+6- Proximo passo... brincadeirinha, vá codar. :unicorn:	
 
 <a id="pt-scripts"></a>
 ## ♦ Scripts Disponíveis:
@@ -127,9 +149,27 @@ npm start
 <a id="funcionalidades"></a>
 ## ♦ Funcionalidades:
 
+- Login
+- Cadastro com **user roles e criptografia**
+- Pegar dados do próprio perfil através do token
+- Pegar dados do perfil de outro usuário através do Id
+- Criar receitas
+- Pegar receitas pelo id
+- Seguir usuário (follow)
+- Deixar de seguir usuário (unfollow)
+- Mostrar feed de receitas
 
 <a id="bibliotecas"></a>
 ## ♦ Bibliotecas e Frameworks:
 
+- mysql
+- uuid
+- dayjs
+- cors
+- knex
+- express
+- dotenv
+- bcryptjs
+- jsonwebtoken
 
 *Desenvolvido com 🧡 por Sarah Hessel*
