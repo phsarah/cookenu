@@ -14,11 +14,11 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 
 <a id="documentation"></a>
-## ♦ Documentation
+## :small_orange_diamond: Documentation
 
 
 <a id="steps"></a>
-## ♦ Getting Started
+## :small_orange_diamond: Getting Started
 1- Clone this repository
 
 2- Run this command
@@ -51,16 +51,16 @@ npm run setup
 ```
 npm start
 ```
-6- Next step ... i'm kidding, go to coding. :unicorn:
+6- Next step ... i'm kidding, let's go to the code!. :unicorn:
 
 <a id="en-scripts"></a>
-## ♦ Available Scripts:
+## :small_orange_diamond: Available Scripts:
 * `npm run setup` to create tables
 * `npm run start` to run the aplication
 * `npm run dev` to run the aplication with hot reload
 
 <a id="features"></a>
-## ♦ Features
+## :small_orange_diamond: Features
 
 - Log in
 - Sign up **user roles and cryptography**
@@ -85,7 +85,7 @@ npm start
 - bcryptjs
 - jsonwebtoken
 
-*Developed with 🧡 by Sarah Hessel*
+*Developed with :sparkling_heart:	 by Sarah Hessel*
 
 -------
 <a id="pt-readme"></a>
@@ -138,7 +138,7 @@ npm run setup
 ```
 npm start
 ```
-6- Proximo passo... brincadeirinha, vá codar. :unicorn:	
+6- Proximo passo... brincadeirinha, bora pro código!. :unicorn:	
 
 <a id="pt-scripts"></a>
 ## ♦ Scripts Disponíveis:
@@ -172,4 +172,4 @@ npm start
 - bcryptjs
 - jsonwebtoken
 
-*Desenvolvido com 🧡 por Sarah Hessel*
+*Desenvolvido com :sparkling_heart:	 por Sarah Hessel*
