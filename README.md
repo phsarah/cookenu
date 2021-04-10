@@ -15,7 +15,7 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 <a id="documentation"></a>
 ## :small_orange_diamond: Documentation
-
+[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) - created by Postman.
 
 <a id="steps"></a>
 ## :small_orange_diamond: Getting Started
@@ -75,7 +75,7 @@ npm start
 - Show recipe feed
 
 <a id="libs"></a>
-## :spades:	Libraries and Frameworks:
+## :small_orange_diamond:	Libraries and Frameworks:
 
 - mysql
 - uuid
@@ -105,6 +105,7 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 <a id="documentacao"></a>
 ## :spades:	Documentação
+[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) - criado pelo Postman.
 
 <a id="passos"></a>
 ## :spades:	Primeiros Passos
