@@ -15,7 +15,7 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 <a id="documentation"></a>
 ## 📙 Documentation
-[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) \ created by Postman.
+[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) <br/> created by Postman.
 
 <a id="steps"></a>
 ## :rocket: Getting Started
@@ -87,6 +87,8 @@ npm start
 - bcryptjs
 - jsonwebtoken
 
+Thank you for your visit and good coding! :shipit:
+
 *Developed with :sparkling_heart:	 by Sarah Hessel*
 
 -------
@@ -105,7 +107,7 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 <a id="documentacao"></a>
 ## 📙	Documentação
-[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) \ criado pelo Postman.
+[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) <br/> criado pelo Postman.
 
 <a id="passos"></a>
 ## :rocket:	Primeiros Passos
@@ -176,5 +178,7 @@ npm start
 - dotenv
 - bcryptjs
 - jsonwebtoken
+
+Obrigada pela visita e boa codificação! :shipit:
 
 *Desenvolvido com :sparkling_heart:	por Sarah Hessel*
