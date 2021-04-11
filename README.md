@@ -14,7 +14,7 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 
 <a id="documentation"></a>
-## :small_orange_diamond: Documentation
+## 📙 Documentation
 [Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) \ created by Postman.
 
 <a id="steps"></a>
