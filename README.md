@@ -19,6 +19,9 @@ Cookenu is a REST API for create recipes and meeting food-loving people! :woman_
 
 <a id="steps"></a>
 ## :rocket: Getting Started
+
+At the terminal,
+
 1- Clone this repository
 ```
 git clone https://github.com/phsarah/cookenu.git
@@ -111,6 +114,9 @@ Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de com
 
 <a id="passos"></a>
 ## :rocket:	Primeiros Passos
+
+No terminal,
+
 1- Clone este repositório
 ```
 git clone https://github.com/phsarah/cookenu.git
