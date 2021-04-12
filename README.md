@@ -1,211 +1,190 @@
-# Cookenu
+# Cookenu :shallow_pan_of_food:	
 
-## ESTRUTURA DE DADOS  
-  
-* ## Cadastro
-  * name
-  * email
-  * password (6 caracteres)
+<a id="en-readme"></a>
+### English | [Português](#pt-readme)
+Back-end project developed in Labenu's bootcamp. \
+Cookenu is a REST API for create recipes and meeting food-loving people! :woman_cook:	
 
----
+<a name="en-menu"></a>
+- [Documentation](#documentacao)
+- [Getting Started](#steps)
+- [Available Scripts](#en-scripts)
+- [Features](#features)
+- [Libraries and Frameworks](#libs)
 
-**Método:** POST **Path:** `/signup`
 
-**Entradas:**
+<a id="documentation"></a>
+## 📙 Documentation
+[Here](https://documenter.getpostman.com/view/13247023/TzCV3QDM) <br/> created by Postman.
 
-Body
+<a id="steps"></a>
+## :rocket: Getting Started
 
-```json
-{
-	"name": "Aisha",
-	"email": "aisha@winx.com",
-	"password": "123456"
-}
+At the terminal,
 
+1- Clone this repository
 ```
-
-**Saídas**
-
-Body
-
-```json
-{
-	"access_token": "token de acesso"
-}
-
----
-
-* ## Login
-
-  * email
-  * password (6 caracteres)
-
-
-**Método:** POST
-**Path:** `/login`
-
-**Entradas:**
-
-Body
-
-```json
-{
-	"email": "bloom@wix.com",
-	"password": "123456"
-}
+git clone https://github.com/phsarah/cookenu.git
 ```
-
-**Saídas**
-
-Body
-
-```json
-{
-	"access_token": "token de acesso"
-}
+2- Install the dependencies
 ```
-
----
-
-* ## Pegar informações do próprio perfil 
-
-  * token
-
-  **Método:** GET
-**Path:** `/user/profile`
-
-**Entradas:**
-
-Headers
-
+npm install
 ```
-Authorization: "token de autenticação"
+3- Create .env file on the root directory of the project with this data:
 ```
+// your database
 
-**Saídas**
+DB_HOST = 
+DB_USER =
+DB_PASSWORD = 
+DB_DATABASE_NAME = 
 
-Body
+// your key and time expire preferences
 
-```json
-{
-	"id": "id do usuário",
-	"name": "Tecna",
-	"email": "tecna@winx.com"
-}
+JWT_KEY =
+JWT_EXPIRES_IN = 
+
+// your cost preference
+
+BCRYPT_COST = 
 ```
----
-
-* ## Pegar informações de outro perfil 
-
-  * id (de outro usuário)
-  * token
-
-
-  **Método:** GET
-**Path:** `/user/:id`
-
-**Entradas:**
-
-Path Param
-
+4- Run this command
 ```
-id: "id do usuário"
+npm run setup
 ```
-
-Headers
-
+5- Now this little commander (I promise it's the last one)
 ```
-Authorization: "token de autenticação"
+npm start
 ```
+6- Next step ... i'm kidding, let's go to the code! :unicorn:
 
-**Saídas**
+<a id="en-scripts"></a>
+## :small_orange_diamond: Available Scripts:
+* `npm run setup` to create tables
+* `npm run start` to run the aplication
+* `npm run dev` to run the aplication with hot reload
 
-Body
+<a id="features"></a>
+## :small_orange_diamond: Features
 
-```json
-{
-	"id": "id do usuário",
-	"name": "Flora",
-	"email": "flora@winx.com"
-}
+- Log in
+- Sign up **user roles and cryptography**
+- Get your own profile data through the token
+- Get data from another user's profile through the Id
+- Create recipes
+- Get recipes by id
+- Follow user
+- Unfollow user 
+- Show recipe feed
+
+<a id="libs"></a>
+## 🛠	Libraries and Frameworks:
+
+- mysql
+- uuid
+- dayjs
+- cors
+- knex
+- express
+- dotenv
+- bcryptjs
+- jsonwebtoken
+
+Thank you for your visit and good coding! :shipit:
+
+*Developed with :sparkling_heart:	 by Sarah Hessel*
+
+-------
+<a id="pt-readme"></a>
+### [English](#en-readme) | Português
+Projeto back-end desenvolvido no bootcamp da Labenu. \
+Cookenu é uma API REST para criar receitas e conhecer pessoas que gostam de comida! :woman_cook:	
+
+<a name="pt-menu"></a>
+- [Documentação](#documentacao)
+- [Primeiros Passos](#passos)
+- [Scripts Disponíveis](#pt-scripts)
+- [Funcionalidades](#funcionalidades)
+- [Bibliotecas e Frameworks](#bibliotecas)
+
+
+<a id="documentacao"></a>
+## 📙	Documentação
+[Aqui](https://documenter.getpostman.com/view/13247023/TzCV3QDM) <br/> criado pelo Postman.
+
+<a id="passos"></a>
+## :rocket:	Primeiros Passos
+
+No terminal,
+
+1- Clone este repositório
 ```
----
-
-* ## Criar receita
-
-  * token
-
-
-**Método:** POST
-**Path:** `/recipe`
-
-**Entradas:**
-
-Headers
-
+git clone https://github.com/phsarah/cookenu.git
 ```
-Authorization: "token de autenticação"
+2- Instale as dependências
 ```
-
-Body
-
-```json
-{
-	"title": "título da receita",
-	"description": "descrição da receita"
-}
+npm install
 ```
----
-
-* ## Pegar receita
-
-  * id
-  * token
-
-  **Método:** GET
-**Path:** `/recipe/:id`
-
-**Entradas:**
-
-Path Param
-
+3- Crie um arquivo .env na raíz do projeto com esses dados:
 ```
-id: "id da receita"
+//dados do seu banco
+
+DB_HOST =
+DB_USER =
+DB_PASSWORD = 
+DB_DATABASE_NAME = 
+
+//suas preferências para key e expire
+
+JWT_KEY =
+JWT_EXPIRES_IN = 
+
+//suas preferências de cost
+
+BCRYPT_COST = 
 ```
-
-Headers
-
+4- Rode esse comando:
 ```
-Authorization: "token de autenticação"
+npm run setup
 ```
-
-**Saídas**
-
-Body
-
-```json
-{
-	"id": "id da receita",
-	"title": "Cake Fairy",
-	"description": "Pega o ovo, a farinha, um pouquinho de leite, pó de pirlim pim pim e bota pra assar!",
-	"cratedAt": "31/12/2020"
-}
+5- Agora esse comandinho (prometo que é o ultimo)
 ```
+npm start
+```
+6- Proximo passo... brincadeirinha, bora pro código! :unicorn:	
 
-## TABELAS MYSQL 
+<a id="pt-scripts"></a>
+## :spades:	Scripts Disponíveis:
+* `npm run setup` para criar as tabelas
+* `npm run start` para rodar a aplicação
+* `npm run dev` para iniciar a aplicação com hot reload
 
-CREATE TABLE cookenu_signup(
-	id VARCHAR(255) PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
-  email VARCHAR(255) UNIQUE NOT NULL,
-  password VARCHAR(6) NOT NULL
-);
+<a id="funcionalidades"></a>
+## :spades:	Funcionalidades:
 
-CREATE TABLE cookenu_recipes(
-	id VARCHAR(255) PRIMARY KEY,
-  title VARCHAR(255) NOT NULL,
-  description TEXT,
-  date_of_creation DATE NOT NULL, 
-  creator_id VARCHAR(255) NOT NULL,
-	FOREIGN KEY (creator_id) REFERENCES cookenu_users(id)
-);
+- Login
+- Cadastro com **user roles e criptografia**
+- Pegar dados do próprio perfil através do token
+- Pegar dados do perfil de outro usuário através do Id
+- Criar receitas
+- Pegar receitas pelo id
+- Seguir usuário (follow)
+- Deixar de seguir usuário (unfollow)
+- Mostrar feed de receitas
+
+<a id="bibliotecas"></a>
+## 🛠	Bibliotecas e Frameworks:
+
+- mysql
+- uuid
+- dayjs
+- cors
+- knex
+- express
+- dotenv
+- bcryptjs
+- jsonwebtoken
+
+Obrigada pela visita e boa codificação! :shipit:
+
+*Desenvolvido com :sparkling_heart:	por Sarah Hessel*
