@@ -1,0 +1,32 @@
+POST http://localhost:3003/signup
+Content-Type: application/json
+
+{
+    "name": "Tecna",
+    "email": "Tecna@winx.com",
+    "password": "roxo33",
+    "role": "NORMAL"
+},
+{
+    "name": "Aisha",
+    "email": "Aisha@winx.com",
+    "password": "marrom",
+    "role": "NORMAL"
+}
+
+###
+
+POST http://localhost:3003/recipe
+Content-Type: application/json
+
+{
+    "title": "Fairy cake, ou Bolinho das fadas",
+    "description": "Um pouco de farinha, ovos, açúcar e uma pitada de pó de pirilim pim pim. Pronto, está feito o fairy cake!"
+},
+{
+    "title": "Omelete Gardeniano",
+    "description": "Ovos de borboleta gigantes, ervas frescas do campo, uma pitada do tempero especial gardeniano e vualá temos um omelete perfeito!"
+}
+
+###
+DELETE  
